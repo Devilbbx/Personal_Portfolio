@@ -337,5 +337,14 @@
 - custom js link
 -->
     <script src="./assets/JS/nav.js"></script>
+    <script>
+      // const Toglefunction
+      const togglebtn = document.querySelector("[data-sidebar-btn]");
+      const sidebar = document.querySelector("[data-sidebar]");
+
+      togglebtn.addEventListener("click", function () {
+        sidebar.classList.toggle("active");
+      });
+    </script>
   </body>
 </html>
